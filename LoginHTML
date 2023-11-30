@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="loginTH.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <h1>LOGIN</h1>
+                <div class="inputBox">
+                    <input type="text" placeholder="username" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+
+                <div class="inputBox">
+                    <input type="password" placeholder="password" required>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+
+                <div class="rem-for">
+                    <label><input type="checkbox">Remember Login Details.</label>
+                    <a href="a">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+
+                <div class="reg-link">
+                    <p>Don't have an account? <a href="file:///C:/Users/Dell/OneDrive/Desktop/WebDesign/registerTH.html?">Register Now.</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
